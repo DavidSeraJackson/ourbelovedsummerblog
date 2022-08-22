@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* lan chuot muot */
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#main {
+    overflow: hidden;
+}
+/* HEADER********* */
+#header {
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#nav {
+    display: inline-block;
+}
+#nav {
+    position: absolute;
+    color: #fff;
+}
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+#nav > li > a {
+    list-style-type: none;
+    color: #fff;
+}
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px ;
+}
+
+#intro {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    overflow: hidden;
+    background-color: #000;
+
+}
+video {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
